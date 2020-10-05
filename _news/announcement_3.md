@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2020-10-05 12:33:00-0400
 inline: true
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+An updated version of our preprint [*On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines*](https://arxiv.org/abs/2006.04884) is available on arXiv.

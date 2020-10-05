@@ -15,6 +15,11 @@ a, table.table a {
   }
 }
 
+h1 {
+  color: $theme-color;
+  font-size: 3rem;
+}
+
 // Math
 
 .equation {
@@ -37,7 +42,9 @@ a, table.table a {
 .profile {
     .address {
       font-family: monospace;
+      //font-family: "Roboto",sans-serif;;
       font-size: 1.2rem;
+      margin-top: 0.75rem;
       p {
         margin: 0;
       }
@@ -122,7 +129,12 @@ a, table.table a {
 // News
 
 .news table td {
-  font-size: 1rem;
+  font-size: 1.0rem;
+}
+
+table th {
+    width: 120px;
+    padding: 0pt;
 }
 
 
@@ -131,9 +143,10 @@ a, table.table a {
 .social {
   text-align: center;
   .contact-icon {
-    font-size: 4rem;
+    font-size: 2rem;
     a {
       color: $grey-color-dark;
+      //color: $theme-color;
       &:hover {
         color: $theme-color;
       }
@@ -150,7 +163,7 @@ a, table.table a {
 footer.fixed-bottom {
   color: lighten($grey-color, 25%);
   background-color: $grey-color-dark;
-  font-size: 0.75rem;
+  font-size: 0.35rem;
   .container {
     padding-top: 9px;
     padding-bottom: 8px;
@@ -168,7 +181,7 @@ footer.sticky-bottom {
   border-top: 1px solid $grey-color-light;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 

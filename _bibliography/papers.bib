@@ -1,69 +1,74 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@article{mosbach2020stability,
+    abbr = {Preprint},
+    title={On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines},
+    author={Mosbach, Marius and Andriushchenko, Maksym and Klakow, Dietrich},
+    journal={arXiv preprint arXiv:2006.04884},
+    year={2020},
+    abstract= "Fine-tuning pre-trained transformer-based language models such as BERT has become a common practice dominating leaderboards across various NLP benchmarks. Despite the strong empirical performance of fine-tuned models, fine-tuning is an unstable process: training the same model with multiple random seeds can result in a large variance of the task performance. Previous literature (Devlin et al., 2019; Lee et al., 2020; Dodge et al., 2020) identified two potential reasons for the observed instability: catastrophic forgetting and a small size of the fine-tuning datasets. In this paper, we show that both hypotheses fail to explain the fine-tuning instability. We analyze BERT, RoBERTa, and ALBERT, fine-tuned on three commonly used datasets from the GLUE benchmark and show that the observed instability is caused by optimization difficulties that lead to vanishing gradients. Additionally, we show that the remaining variance of the downstream task performance can be attributed to differences in generalization where fine-tuned models with the same training loss exhibit noticeably different test performance. Based on our analysis, we present a simple but strong baseline that makes fine-tuning BERT-based models significantly more stable than previously proposed approaches.",
+    html={https://arxiv.org/abs/2007.06077},
+    code={https://github.com/uds-lsv/bert-stable-fine-tuning},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@article{mogadala2020sparse,
+    abbr = {ICML 2020},
+    title={Sparse Graph to Sequence Learning for Vision Conditioned Long Textual Sequence Generation},
+    author={Mogadala, Aditya and Mosbach, Marius and Klakow, Dietrich},
+    journal={ICML Workshop on Bridge Between Perception and Reasoning:
+Graph Neural Networks & Beyond},
+    year={2020},
+    abstract= "Generating longer textual sequences when conditioned on the visual information is an interesting problem to explore. The challenge here proliferate over the standard vision conditioned sentence-level generation (e.g., image or video captioning) as it requires to produce a brief and coherent story describing the visual content. In this paper, we mask this Vision-to-Sequence as Graph-to-Sequence learning problem and approach it with the Transformer architecture. To be specific, we introduce Sparse Graph-to-Sequence Transformer (SGST) for encoding the graph and decoding a sequence. The encoder aims to directly encode graph-level semantics, while the decoder is used to generate longer sequences. Experiments conducted with the benchmark image paragraph dataset show that our proposed achieve 13.3% improvement on the CIDEr evaluation measure when comparing to the previous state-of-the-art approach.",
+    html={https://arxiv.org/abs/2007.06077},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf}
+
+@inproceedings{bizzoni-etal-2019-steps,
+    abbr={NoDaLiDa 2019},
+    title = "Some steps towards the generation of diachronic {W}ord{N}ets",
+    author = "Bizzoni, Yuri  and
+      Mosbach, Marius  and
+      Klakow, Dietrich  and
+      Degaetano-Ortlieb, Stefania",
+    booktitle = "Proceedings of the 22nd Nordic Conference on Computational Linguistics",
+    month = sep # "{--}" # oct,
+    year = "2019",
+    address = "Turku, Finland",
+    publisher = {Link{\"o}ping University Electronic Press},
+    url = "https://www.aclweb.org/anthology/W19-6106",
+    pages = "55--64",
+    abstract = "We apply hyperbolic embeddings to trace the dynamics of change of conceptual-semantic relationships in a large diachronic scientific corpus (200 years). Our focus is on emerging scientific fields and the increasingly specialized terminology establishing around them. Reproducing high-quality hierarchical structures such as WordNet on a diachronic scale is a very difficult task. Hyperbolic embeddings can map partial graphs into low dimensional, continuous hierarchical spaces, making more explicit the latent structure of the input. We show that starting from simple lists of word pairs (rather than a list of entities with directional links) it is possible to build diachronic hierarchical semantic spaces which allow us to model a process towards specialization for selected scientific fields.",
+    html={https://www.aclweb.org/anthology/W19-6106/},
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{mosbach-etal-2019-incom,
+    abbr={RANLP 2019},
+    title = "incom.py - A Toolbox for Calculating Linguistic Distances and Asymmetries between Related Languages",
+    author = "Mosbach, Marius  and
+      Stenger, Irina  and
+      Avgustinova, Tania  and
+      Klakow, Dietrich",
+    booktitle = "Proceedings of the International Conference on Recent Advances in Natural Language Processing (RANLP 2019)",
+    month = sep,
+    year = "2019",
+    address = "Varna, Bulgaria",
+    publisher = "INCOMA Ltd.",
+    url = "https://www.aclweb.org/anthology/R19-1094",
+    doi = "10.26615/978-954-452-056-4_094",
+    pages = "810--818",
+    abstract = "Languages may be differently distant from each other and their mutual intelligibility may be asymmetric. In this paper we introduce incom.py, a toolbox for calculating linguistic distances and asymmetries between related languages. incom.py allows linguist experts to quickly and easily perform statistical analyses and compare those with experimental results. We demonstrate the efficacy of incom.py in an incomprehension experiment on two Slavic languages: Bulgarian and Russian. Using incom.py we were able to validate three methods to measure linguistic distances and asymmetries: Levenshtein distance, word adaptation surprisal, and conditional entropy as predictors of success in a reading intercomprehension experiment.",
+    html={https://www.aclweb.org/anthology/R19-1094/},
+    code={https://github.com/uds-lsv/incompy},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{mosbach2018logit,
+    abbr = {NeurIPS 2018},
+    title = {Logit pairing methods can fool gradient-based attacks},
+    author = {Mosbach, Marius and Andriushchenko, Maksym and Trost, Thomas and Hein, Matthias and Klakow, Dietrich},
+    journal = {NeurIPS Workshop on Security in Machine Learning},
+    year = {2018},
+    abstract = "Recently, Kannan et al. [2018] proposed several logit regularization methods to improve the adversarial robustness of classifiers. We show that the computationally fast methods they propose - Clean Logit Pairing (CLP) and Logit Squeezing (LSQ) - just make the gradient-based optimization problem of crafting adversarial examples harder without providing actual robustness. We find that Adversarial Logit Pairing (ALP) may indeed provide robustness against adversarial examples, especially when combined with adversarial training, and we examine it in a variety of settings. However, the increase in adversarial accuracy is much smaller than previously claimed. Finally, our results suggest that the evaluation against an iterative PGD attack relies heavily on the parameters used and may result in false conclusions regarding robustness of a model.",
+    html={https://arxiv.org/abs/1810.12042},
+    code={https://github.com/uds-lsv/evaluating-logit-pairing-methods},
 }

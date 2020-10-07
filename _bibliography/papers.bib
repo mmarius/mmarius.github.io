@@ -2,6 +2,17 @@
 ---
 
 @article{mosbach2020stability,
+    abbr = {EMNLP 2020},
+    title={On the Interplay Between Fine-tuning and Sentence-level Probing for Linguistic Knowledge in Pre-trained Transformers},
+    author={Mosbach, Marius and Khokhlova, Anna and Hedderich, Michael A. and Klakow, Dietrich},
+    journal={To appear at Findings of EMNLP 2020 and BlackboxNLP},
+    year={2020},
+    abstract= "Fine-tuning pre-trained contextualized embedding models has become an integral part of the NLP pipeline. At the same time, probing has emerged as a way to investigate the linguistic knowledge captured by pre-trained models. Very little is, however, understood about how fine-tuning affects the representations of pre-trained models and thereby the linguistic knowledge they encode. This paper contributes towards closing this gap. We study three different pre-trained models: BERT, RoBERTa, and ALBERT, and investigate through sentence-level probing how fine-tuning affects their representations. We find that for some probing tasks fine-tuning leads to substantial changes in accuracy, possibly suggesting that fine-tuning introduces or even removes linguistic knowledge from a pre-trained model. These changes, however, vary greatly across different models, fine-tuning and probing tasks. Our analysis reveals that while fine-tuning indeed changes the representations of a pre-trained model and these changes are typically larger for higher layers, only in very few cases, fine-tuning has a positive effect on probing accuracy that is larger than just using the pre-trained model with a strong pooling method. Based on our findings, we argue that both positive and negative effects of fine-tuning on probing require a careful interpretation.",
+    html={https://arxiv.org/abs/2010.02616},
+    code={https://github.com/uds-lsv/probing-and-finetuning},
+}
+
+@article{mosbach2020stability,
     abbr = {Preprint},
     title={On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines},
     author={Mosbach, Marius and Andriushchenko, Maksym and Klakow, Dietrich},

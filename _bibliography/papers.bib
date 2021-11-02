@@ -1,36 +1,59 @@
 ---
 ---
 
+@article{abdullah2021do,
+    abbr = {AKBC 2021},
+    title={Artefact Retrieval: Overview of NLP Models with Knowledge Base Access},
+    author={Zouhar, Vilém and Mosbach, Marius and Biswas, Debanjali and Klakow, Dietrich},
+    journal={CSKB workshop @ AKBC},
+    year={2021},
+    abstract= "Many NLP models gain performance by having access to a knowledge base. A lot of research has been devoted to devising and improving the way the knowledge base is accessed and incorporated into the model, resulting in a number of mechanisms and pipelines. Despite the diversity of proposed mechanisms, there are patterns in the designs of such systems.
+In this paper, we systematically describe the typology of *artefacts* (items retrieved from a knowledge base), retrieval mechanisms and the way these artefacts are *fused* into the model. This further allows us to uncover combinations of design decisions that had not yet been tried. Most of the focus is given to language models, though we also show how question answering, fact-checking and knowledgable dialogue models fit into this system as well. Having an abstract model which can describe the architecture of specific models also helps with transferring these architectures between multiple NLP tasks.",
+    html={https://openreview.net/forum?id=9_oCNR6R9l2},
+    code={https://github.com/uds-lsv},
+}
+
+@article{abdullah2021do,
+    abbr = {Interspeech 2021},
+    title={Do Acoustic Word Embeddings Capture Phonological Similarity? An Empirical Study},
+    author={Abdullah, Badr M. and Mosbach, Marius and Zaitova, Iuliia and Möbius, Bernd and Klakow, Dietrich},
+    journal={Interspeech},
+    year={2021},
+    abstract= "Several variants of deep neural networks have been successfully employed for building parametric models that project variable-duration spoken word segments onto fixed-size vector representations, or acoustic word embeddings (AWEs). However, it remains unclear to what degree we can rely on the distance in the emerging AWE space as an estimate of word-form similarity. In this paper, we ask: does the distance in the acoustic embedding space correlate with phonological dissimilarity? To answer this question, we empirically investigate the performance of supervised approaches for AWEs with different neural architectures and learning objectives. We train AWE models in controlled settings for two languages (German and Czech) and evaluate the embeddings on two tasks: word discrimination and phonological similarity. Our experiments show that (1) the distance in the embedding space in the best cases only moderately correlates with phonological distance, and (2) improving the performance on the word discrimination task does not necessarily yield models that better reflect word phonological similarity. Our findings highlight the necessity to rethink the current intrinsic evaluations for AWEs.",
+    html={https://arxiv.org/abs/2106.08686},
+    code={https://github.com/uds-lsv},
+}
+
 @article{mosbach2020closer,
     abbr = {COLING 2020},
     title={A Closer Look at Linguistic Knowledge in Masked Language Models: The Case of Relative Clauses in American English},
     author={Mosbach, Marius and Degaetano-Ortlieb, Stefania and Krielke, Marie-Pauline and Abdullah, Badr M. and Klakow, Dietrich},
-    journal={To appear at COLING 2020},
+    journal={COLING},
     year={2020},
     abstract= "Transformer-based language models achieve high performance on various tasks, but we still lack understanding of the kind of linguistic knowledge they learn and rely on. We evaluate three models (BERT, RoBERTa, and ALBERT), testing their grammatical and semantic knowledge by sentence-level probing, diagnostic cases, and masked prediction tasks. We focus on relative clauses (in American English) as a complex phenomenon needing contextual information and antecedent identification to be resolved. Based on a naturalistic dataset, probing shows that all three models indeed capture linguistic knowledge about grammaticality, achieving high performance. Evaluation on diagnostic cases and masked prediction tasks considering fine-grained linguistic knowledge, however, shows pronounced model-specific weaknesses especially on semantic knowledge, strongly impacting models' performance. Our results highlight the importance of (a)model comparison in evaluation task and (b) building up claims of model performance and the linguistic knowledge they capture beyond purely probing-based evaluations.",
     html={https://arxiv.org/abs/2011.00960},
-    code={https://github.com/uds-lsv/rc-probing},
+    code={https://github.com/uds-lsv},
 }
 
 @article{mosbach2020stability,
     abbr = {EMNLP 2020},
     title={On the Interplay Between Fine-tuning and Sentence-level Probing for Linguistic Knowledge in Pre-trained Transformers},
     author={Mosbach, Marius and Khokhlova, Anna and Hedderich, Michael A. and Klakow, Dietrich},
-    journal={To appear at Findings of EMNLP 2020 and BlackboxNLP},
+    journal={Findings of EMNLP and BlackboxNLP},
     year={2020},
     abstract= "Fine-tuning pre-trained contextualized embedding models has become an integral part of the NLP pipeline. At the same time, probing has emerged as a way to investigate the linguistic knowledge captured by pre-trained models. Very little is, however, understood about how fine-tuning affects the representations of pre-trained models and thereby the linguistic knowledge they encode. This paper contributes towards closing this gap. We study three different pre-trained models: BERT, RoBERTa, and ALBERT, and investigate through sentence-level probing how fine-tuning affects their representations. We find that for some probing tasks fine-tuning leads to substantial changes in accuracy, possibly suggesting that fine-tuning introduces or even removes linguistic knowledge from a pre-trained model. These changes, however, vary greatly across different models, fine-tuning and probing tasks. Our analysis reveals that while fine-tuning indeed changes the representations of a pre-trained model and these changes are typically larger for higher layers, only in very few cases, fine-tuning has a positive effect on probing accuracy that is larger than just using the pre-trained model with a strong pooling method. Based on our findings, we argue that both positive and negative effects of fine-tuning on probing require a careful interpretation.",
     html={https://arxiv.org/abs/2010.02616},
-    code={https://github.com/uds-lsv/probing-and-finetuning},
+    code={https://github.com/uds-lsv},
 }
 
 @article{mosbach2020stability,
-    abbr = {Preprint},
+    abbr = {ICLR 2020},
     title={On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines},
     author={Mosbach, Marius and Andriushchenko, Maksym and Klakow, Dietrich},
-    journal={arXiv preprint arXiv:2006.04884},
+    journal={ICLR},
     year={2020},
     abstract= "Fine-tuning pre-trained transformer-based language models such as BERT has become a common practice dominating leaderboards across various NLP benchmarks. Despite the strong empirical performance of fine-tuned models, fine-tuning is an unstable process: training the same model with multiple random seeds can result in a large variance of the task performance. Previous literature (Devlin et al., 2019; Lee et al., 2020; Dodge et al., 2020) identified two potential reasons for the observed instability: catastrophic forgetting and a small size of the fine-tuning datasets. In this paper, we show that both hypotheses fail to explain the fine-tuning instability. We analyze BERT, RoBERTa, and ALBERT, fine-tuned on three commonly used datasets from the GLUE benchmark and show that the observed instability is caused by optimization difficulties that lead to vanishing gradients. Additionally, we show that the remaining variance of the downstream task performance can be attributed to differences in generalization where fine-tuned models with the same training loss exhibit noticeably different test performance. Based on our analysis, we present a simple but strong baseline that makes fine-tuning BERT-based models significantly more stable than previously proposed approaches.",
-    html={https://arxiv.org/abs/2007.06077},
+    html={https://arxiv.org/abs/2006.04884},
     code={https://github.com/uds-lsv/bert-stable-fine-tuning},
 }
 

@@ -1,7 +1,39 @@
 ---
 ---
 
-@article{abdullah2021do,
+@article{alabi2022multi,
+    abbr = {AfricaNLP 2022},
+    title={Multilingual Language Model Adaptive Fine-Tuning: A Study on African Languages},
+    author={Alabi, Jesujoba O. and Adelani, David Ifeoluwa and Mosbach, Marius and Klakow, Dietrich},
+    journal={AfricaNLP workshop @ ICLR 2022},
+    year={2022},
+    abstract= "Multilingual pre-trained language models (PLMs) have demonstrated impressive performance on several downstream tasks on both high resourced and low-resourced languages. However, there is still a large performance drop for languages unseen during pre-training, especially African languages. One of the most effective approaches to adapt to a new language is language adaptive fine-tuning (LAFT) -- fine-tuning a multilingual PLM on monolingual texts of a language using the same pre-training objective. However, African languages with large monolingual texts are few, and adapting to each of them individually takes large disk space and limits the cross-lingual transfer abilities of the resulting models because they have been specialized for a single language. In this paper, we perform multilingual adaptive fine-tuning (MAFT) on 17 most-resourced African languages and three other high-resource languages widely spoken on the African continent -- English, French, and Arabic to encourage cross-lingual transfer learning. Additionally, to further specialize the multilingual PLM, we removed vocabulary tokens from the embedding layer that corresponds to non-African writing scripts before MAFT, thus reducing the model size by around 50\%. Our evaluation on two multilingual PLMs (AfriBERTa and XLM-R) and three NLP tasks (NER, news topic classification, and sentiment classification) shows that our approach is competitive to applying LAFT on individual languages while requiring significantly less disk space. Finally, we show that our adapted PLM also improves the zero-shot cross-lingual transfer abilities of parameter efficient fine-tuning methods.",
+    html={https://arxiv.org/abs/2204.06487},
+}
+
+
+@article{zhang2022mcse,
+    abbr = {NAACL 2022},
+    title={MCSE: Multimodal Contrastive Learning of Sentence Embeddings},
+    author={Zhang, Miaoran and Mosbach, Marius and Adelani, David Ifeoluwa and Hedderich, Michael A. and Klakow, Dietrich},
+    journal={NAACL 2022},
+    year={2022},
+    abstract= "Learning semantically meaningful sentence embeddings is an open problem in natural language processing. In this work, we propose a sentence embedding learning approach that exploits both visual and textual information via a multimodal contrastive objective. Through experiments on a variety of semantic textual similarity tasks, we demonstrate that our approach consistently improves the performance across various datasets and pre-trained encoders. In particular, combining a small amount of multimodal data with a large text-only corpus, we improve the state-of-the-art average Spearman's correlation by 1.7%. By analyzing the properties of the textual embedding space, we show that our model excels in aligning semantically similar sentences, providing an explanation for its improved performance.",
+    html={https://arxiv.org/abs/2204.10931},
+}
+
+
+@article{zouhar2021knowledge,
+    abbr = {SpaNLP 2022},
+    title={Knowledge Base Index Compression via Dimensionality and Precision Reduction},
+    author={Zouhar, Vilém and Mosbach, Marius and Klakow, Dietrich},
+    journal={SpaNLP workshop @ ACL 2022},
+    year={2022},
+    abstract= "Recently neural network based approaches to knowledge-intensive NLP tasks, such as question answering, started to rely heavily on the combination of neural retrievers and readers. Retrieval is typically performed over a large textual knowledge base (KB) which requires significant memory and compute resources, especially when scaled up. On HotpotQA we systematically investigate reducing the size of the KB index by means of dimensionality (sparse random projections, PCA, autoencoders) and numerical precision reduction. Our results show that PCA is an easy solution that requires very little data and is only slightly worse than autoencoders, which are less stable. All methods are sensitive to pre- and post-processing and data should always be centered and normalized both before and after dimension reduction. Finally, we show that it is possible to combine PCA with using 1bit per dimension. Overall we achieve (1) 100× compression with 75%, and (2) 24× compression with 92% original retrieval performance.",
+    html={https://arxiv.org/abs/2204.02906},
+}
+
+@article{zouhar2021artefact,
     abbr = {AKBC 2021},
     title={Artefact Retrieval: Overview of NLP Models with Knowledge Base Access},
     author={Zouhar, Vilém and Mosbach, Marius and Biswas, Debanjali and Klakow, Dietrich},

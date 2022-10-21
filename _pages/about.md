@@ -22,7 +22,7 @@ My research is concerned with representation learning and machine learning in th
 
 ## service
 
-- Reviewer for: [EMNLP 2022](https://2022.emnlp.org/), [ARR 2022](https://aclrollingreview.org/), [ARR 2021](https://aclrollingreview.org/), [EMNLP 2021](https://2021.emnlp.org/), [NAACL 2021](https://2021.naacl.org/), [SustaiNLP 2021](https://sites.google.com/view/sustainlp2021/home), [SustaiNLP 2020](https://sites.google.com/view/sustainlp2020/home), [ACL 2020](https://acl2020.org/)
-- Co-organizer of the [NLPhD Speaker Series](https://sites.google.com/view/nlphd-saar/startseite) @ Saarland University
-- Co-organizer of the 3rd workshop Beyond Vision and Language ([LANTERN](https://aclanthology.org/2021.lantern-1.0/)) @ EACL 2021
+- Reviewer for: [EMNLP 2022](https://2022.emnlp.org/), [ARR 2022](https://aclrollingreview.org/), [ARR 2021](https://aclrollingreview.org/), [EMNLP 2021](https://2021.emnlp.org/), [NAACL 2021](https://2021.naacl.org/), [SustaiNLP 2021](https://sites.google.com/view/sustainlp2021/home), [SustaiNLP 2020](https://sites.google.com/view/sustainlp2020/home), [ACL 2020](https://acl2020.org/).
+- Co-organizer of the [NLPhD Speaker Series](https://sites.google.com/view/nlphd-saar/startseite) @ Saarland University.
+- Co-organizer of the 3rd workshop Beyond Vision and Language ([LANTERN](https://aclanthology.org/2021.lantern-1.0/)) @ EACL 2021.
 

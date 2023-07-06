@@ -2,10 +2,9 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
-nav: false
+description: A list of courses and seminiars I taught.
+nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
 
-Organize your courses by years, topics, or universities, however you like!
+- **Winter semester 2022/2023**: Co-taught a seminar on [Learning from Limited Data in NLP](https://www.lsv.uni-saarland.de/learning-from-limited-data-in-nlp-seminar-wese-2022-23/).

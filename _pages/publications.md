@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: publications
-description: publications an preprints in reversed chronological order. For an always up-to-date list check my Google Scholar.
-years: [2022, 2021, 2020, 2019, 2018]
+description: Publications and preprints in reversed chronological order. For an always up-to-date list check my Google Scholar.
+years: [2023, 2022, 2021, 2020, 2019, 2018]
 nav: true
 ---
 

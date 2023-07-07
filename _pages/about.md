@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: Marius_headshot1.png
   address: >
     <p>C7.1 Room 0.11</p>
     <p>Saarland University</p>
@@ -20,7 +20,7 @@ I am a last year PhD student at the [Language Science and Technology Department]
 
 My research is concerned with representation learning and machine learning in the field of natural language processing (NLP). I’m interested in providing a better understanding of machine learning applied to NLP, particularly in the context of pre-trained and fine-tuned neural language models.
 
-## Service
+## service
 
 - Reviewer for: [NeurIPS 2023](https://nips.cc/), [ACL 2023](https://2023.aclweb.org/), [EMNLP 2022](https://2022.emnlp.org/), [ARR 2022](https://aclrollingreview.org/), [ARR 2021](https://aclrollingreview.org/), [EMNLP 2021](https://2021.emnlp.org/), [NAACL 2021](https://2021.naacl.org/), [SustaiNLP 2023](https://sites.google.com/view/sustainlp2023), [SustaiNLP 2021](https://sites.google.com/view/sustainlp2021/home), [SustaiNLP 2020](https://sites.google.com/view/sustainlp2020/home), [ACL 2020](https://acl2020.org/).
 - Co-organizer of the [NLPhD Speaker Series](https://sites.google.com/view/nlphd-saar/startseite) @ Saarland University.

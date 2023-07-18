@@ -1,36 +1,38 @@
-@inproceedings{mosbach-etal-2023-few-shot,
-    abbr = "ACL 2023",
+@inproceedings{mosbach-etal-2023-shot,
+    abbr = {ACL 2023},
     title = "Few-shot Fine-tuning vs. In-context Learning: A Fair Comparison and Evaluation",
-    author = "Mosbach, Marius and
+    author = "Mosbach, Marius  and
       Pimentel, Tiago  and
       Ravfogel, Shauli  and
       Klakow, Dietrich  and
       Elazar, Yanai",
     booktitle = "Findings of the Association for Computational Linguistics: ACL 2023",
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2305.16938",
-    doi = "",
-    pages = "",
+    url = "https://aclanthology.org/2023.findings-acl.779",
+    pages = "12284--12314",
+    abstract = "Few-shot fine-tuning and in-context learning are two alternative strategies for task adaptation of pre-trained language models. Recently, in-context learning has gained popularity over fine-tuning due to its simplicity and improved out-of-domain generalization, and because extensive evidence shows that fine-tuned models pick up on spurious correlations.Unfortunately, previous comparisons of the two approaches were done using models of different sizes. This raises the question of whether the observed weaker out-of-domain generalization of fine-tuned models is an inherent property of fine-tuning or a limitation of the experimental setup. In this paper, we compare the generalization of few-shot fine-tuning and in-context learning to challenge datasets, while controlling for the models used, the number of examples, and the number of parameters, ranging from 125M to 30B. Our results show that fine-tuned language models can in fact generalize well out-of-domain. We find that both approaches generalize similarly; they exhibit large variation and depend on properties such as model size and the number of examples, highlighting that robust task adaptation remains a challenge.",
 }
 
 @inproceedings{zhu-etal-2023-weaker,
-    abbr = "ACL 2023",
-    title = "Weaker Than You Think: {A} Critical Look at Weakly Supervised Learning",
+    abbr = {ACL 2023},
+    title = "Weaker Than You Think: A Critical Look at Weakly Supervised Learning",
     author = "Zhu, Dawei  and
       Shen, Xiaoyu  and
-      Mosbach, Marius and
-      Stephan, Andreas and
+      Mosbach, Marius  and
+      Stephan, Andreas  and
       Klakow, Dietrich",
-    booktitle = "Proceedings of the 61th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
     year = "2023",
     address = "Toronto, Canada",
     publisher = "Association for Computational Linguistics",
-    url = "https://arxiv.org/abs/2305.17442",
-    doi = "",
-    pages = "",
-    abstract = "",
+    url = "https://aclanthology.org/2023.acl-long.796",
+    pages = "14229--14253",
+    abstract = "Weakly supervised learning is a popular approach for training machine learning models in low-resource settings. Instead of requesting high-quality yet costly human annotations, it allows training models with noisy annotations obtained from various weak sources. Recently, many sophisticated approaches have been proposed for robust training under label noise, reporting impressive results. In this paper, we revisit the setup of these approaches and find that the benefits brought by these approaches are significantly overestimated. Specifically, we find that the success of existing weakly supervised learning approaches heavily relies on the availability of clean validation samples which, as we show, can be leveraged much more efficiently by simply training on them. After using these clean labels in training, the advantages of using these sophisticated approaches are mostly wiped out. This remains true even when reducing the size of the available clean data to just five samples per class, making these approaches impractical. To understand the true value of weakly supervised learning, we thoroughly analyze diverse NLP datasets and tasks to ascertain when and why weakly supervised approaches work. Based on our findings, we provide recommendations for future research.",
+    award = "Best paper",
 }
 
 @inproceedings{alabi-etal-2022-adapting,
@@ -48,6 +50,7 @@
     url = "https://aclanthology.org/2022.coling-1.382",
     pages = "4336--4349",
     abstract = "Multilingual pre-trained language models (PLMs) have demonstrated impressive performance on several downstream tasks for both high-resourced and low-resourced languages. However, there is still a large performance drop for languages unseen during pre-training, especially African languages. One of the most effective approaches to adapt to a new language is language adaptive fine-tuning (LAFT) {---} fine-tuning a multilingual PLM on monolingual texts of a language using the pre-training objective. However, adapting to target language individually takes large disk space and limits the cross-lingual transfer abilities of the resulting models because they have been specialized for a single language. In this paper, we perform multilingual adaptive fine-tuning on 17 most-resourced African languages and three other high-resource languages widely spoken on the African continent to encourage cross-lingual transfer learning. To further specialize the multilingual PLM, we removed vocabulary tokens from the embedding layer that corresponds to non-African writing scripts before MAFT, thus reducing the model size by around 50{\%}. Our evaluation on two multilingual PLMs (AfriBERTa and XLM-R) and three NLP tasks (NER, news topic classification, and sentiment classification) shows that our approach is competitive to applying LAFT on individual languages while requiring significantly less disk space. Additionally, we show that our adapted PLM also improves the zero-shot cross-lingual transfer abilities of parameter efficient fine-tuning methods.",
+    award = "Best paper",
 }
 
 

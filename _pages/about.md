@@ -16,7 +16,7 @@ news: true
 social: true
 ---
 
-I am a last year PhD student at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). I am also a member of the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/) and the [SFB 1102: Information Density and Linguistic Encoding](http://www.sfb1102.uni-saarland.de/). My advisor is [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
+I am a final-year PhD student at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). I am also a member of the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/) and the [SFB 1102: Information Density and Linguistic Encoding](http://www.sfb1102.uni-saarland.de/). My advisor is [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
 
 My research is concerned with representation learning and machine learning in the field of natural language processing (NLP). I’m interested in providing a better understanding of machine learning applied to NLP, particularly in the context of pre-trained and fine-tuned neural language models.
 

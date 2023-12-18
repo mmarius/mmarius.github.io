@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: Marius_headshot1.png
+  image: Marius_headshot4_downsampled.png
   address: >
     <p>C7.1 Room 0.11</p>
     <p>Saarland University</p>

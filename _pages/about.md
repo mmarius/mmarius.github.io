@@ -16,22 +16,9 @@ news: true
 social: true
 ---
 
-I am a final-year PhD student at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). I am also a member of the [Saarbrücken Graduate School of Computer Science](https://www.graduateschool-computerscience.de/) and the [SFB 1102: Information Density and Linguistic Encoding](http://www.sfb1102.uni-saarland.de/). My advisor is [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
+I am postdoctoral researcher at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). 
 
-My research is concerned with representation learning and machine learning in the field of natural language processing (NLP). I’m interested in providing a better understanding of machine learning applied to NLP, particularly in the context of pre-trained and fine-tuned neural language models.
+Before that, I did my PhD in Computer Science at [Saarland University](https://www.uni-saarland.de/en/home.html) where I was also a member of the [SFB 1102: Information Density and Linguistic Encoding](http://www.sfb1102.uni-saarland.de/). My PhD advisor is [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
 
-### service
-
-###### reviewing
-
-- [ICLR 2024](https://iclr.cc/) 
-- [NeurIPS 2023](https://nips.cc/), [ACL 2023](https://2023.aclweb.org/), [SustaiNLP 2023](https://sites.google.com/view/sustainlp2023)
-- [EMNLP 2022](https://2022.emnlp.org/), [ARR 2022](https://aclrollingreview.org/)
-- [ARR 2021](https://aclrollingreview.org/), [EMNLP 2021](https://2021.emnlp.org/), [NAACL 2021](https://2021.naacl.org/), [SustaiNLP 2021](https://sites.google.com/view/sustainlp2021/home)
-- [ACL 2020](https://acl2020.org/), [SustaiNLP 2020](https://sites.google.com/view/sustainlp2020/home)
-
-###### workshops
-
-- Co-organizer of the 9th Workshop on Representation Learning for NLP ([Rep4NLP](https://sites.google.com/view/repl4nlp2024)) @ ACL 2024.
-- Co-organizer of the 3rd workshop Beyond Vision and Language ([LANTERN](https://aclanthology.org/2021.lantern-1.0/)) @ EACL 2021.
+The overarching goal of my research is to build natural language processing (NLP) systems that are *well understood*, *robust*, *adaptable*, and *accessible*; we should have a rigorous understanding of when and why NLP systems work or fail, they should be robustly deployable in a variety of real-world scenarios with guarantees about their performance and generalization, they should be easy to adapt to new domains and problems, and they should be accessible by and useful to everyone.
 

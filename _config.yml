@@ -12,7 +12,7 @@ footer_text: >
 
 url:  # the base hostname & protocol for your site, should be empty when deploying to github pages
 baseurl: # the subpath of your site, e.g. /blog/, should be empty when deploying to github pages
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 
 # -----------------------------------------------------------------------------
 # Layout

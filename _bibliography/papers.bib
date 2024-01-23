@@ -116,6 +116,17 @@ In this paper, we systematically describe the typology of *artefacts* (items ret
     code={https://github.com/uds-lsv},
 }
 
+@article{mosbach2021stability,
+    abbr = {ICLR 2021},
+    title={On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines},
+    author={Mosbach, Marius and Andriushchenko, Maksym and Klakow, Dietrich},
+    journal={ICLR},
+    year={2021},
+    abstract= "Fine-tuning pre-trained transformer-based language models such as BERT has become a common practice dominating leaderboards across various NLP benchmarks. Despite the strong empirical performance of fine-tuned models, fine-tuning is an unstable process: training the same model with multiple random seeds can result in a large variance of the task performance. Previous literature (Devlin et al., 2019; Lee et al., 2020; Dodge et al., 2020) identified two potential reasons for the observed instability: catastrophic forgetting and a small size of the fine-tuning datasets. In this paper, we show that both hypotheses fail to explain the fine-tuning instability. We analyze BERT, RoBERTa, and ALBERT, fine-tuned on three commonly used datasets from the GLUE benchmark and show that the observed instability is caused by optimization difficulties that lead to vanishing gradients. Additionally, we show that the remaining variance of the downstream task performance can be attributed to differences in generalization where fine-tuned models with the same training loss exhibit noticeably different test performance. Based on our analysis, we present a simple but strong baseline that makes fine-tuning BERT-based models significantly more stable than previously proposed approaches.",
+    html={https://arxiv.org/abs/2006.04884},
+    code={https://github.com/uds-lsv/bert-stable-fine-tuning},
+}
+
 @article{mosbach2020closer,
     abbr = {COLING 2020},
     title={A Closer Look at Linguistic Knowledge in Masked Language Models: The Case of Relative Clauses in American English},
@@ -127,7 +138,7 @@ In this paper, we systematically describe the typology of *artefacts* (items ret
     code={https://github.com/uds-lsv},
 }
 
-@article{mosbach2020stability,
+@article{mosbach2020interplay,
     abbr = {EMNLP 2020},
     title={On the Interplay Between Fine-tuning and Sentence-level Probing for Linguistic Knowledge in Pre-trained Transformers},
     author={Mosbach, Marius and Khokhlova, Anna and Hedderich, Michael A. and Klakow, Dietrich},
@@ -136,17 +147,6 @@ In this paper, we systematically describe the typology of *artefacts* (items ret
     abstract= "Fine-tuning pre-trained contextualized embedding models has become an integral part of the NLP pipeline. At the same time, probing has emerged as a way to investigate the linguistic knowledge captured by pre-trained models. Very little is, however, understood about how fine-tuning affects the representations of pre-trained models and thereby the linguistic knowledge they encode. This paper contributes towards closing this gap. We study three different pre-trained models: BERT, RoBERTa, and ALBERT, and investigate through sentence-level probing how fine-tuning affects their representations. We find that for some probing tasks fine-tuning leads to substantial changes in accuracy, possibly suggesting that fine-tuning introduces or even removes linguistic knowledge from a pre-trained model. These changes, however, vary greatly across different models, fine-tuning and probing tasks. Our analysis reveals that while fine-tuning indeed changes the representations of a pre-trained model and these changes are typically larger for higher layers, only in very few cases, fine-tuning has a positive effect on probing accuracy that is larger than just using the pre-trained model with a strong pooling method. Based on our findings, we argue that both positive and negative effects of fine-tuning on probing require a careful interpretation.",
     html={https://arxiv.org/abs/2010.02616},
     code={https://github.com/uds-lsv},
-}
-
-@article{mosbach2020stability,
-    abbr = {ICLR 2020},
-    title={On the Stability of Fine-tuning BERT: Misconceptions, Explanations, and Strong Baselines},
-    author={Mosbach, Marius and Andriushchenko, Maksym and Klakow, Dietrich},
-    journal={ICLR},
-    year={2020},
-    abstract= "Fine-tuning pre-trained transformer-based language models such as BERT has become a common practice dominating leaderboards across various NLP benchmarks. Despite the strong empirical performance of fine-tuned models, fine-tuning is an unstable process: training the same model with multiple random seeds can result in a large variance of the task performance. Previous literature (Devlin et al., 2019; Lee et al., 2020; Dodge et al., 2020) identified two potential reasons for the observed instability: catastrophic forgetting and a small size of the fine-tuning datasets. In this paper, we show that both hypotheses fail to explain the fine-tuning instability. We analyze BERT, RoBERTa, and ALBERT, fine-tuned on three commonly used datasets from the GLUE benchmark and show that the observed instability is caused by optimization difficulties that lead to vanishing gradients. Additionally, we show that the remaining variance of the downstream task performance can be attributed to differences in generalization where fine-tuned models with the same training loss exhibit noticeably different test performance. Based on our analysis, we present a simple but strong baseline that makes fine-tuning BERT-based models significantly more stable than previously proposed approaches.",
-    html={https://arxiv.org/abs/2006.04884},
-    code={https://github.com/uds-lsv/bert-stable-fine-tuning},
 }
 
 @article{mogadala2020sparse,

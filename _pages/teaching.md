@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: A list of courses and seminiars I taught.
+description: A list of courses and seminars I taught.
 nav: true
 ---
 

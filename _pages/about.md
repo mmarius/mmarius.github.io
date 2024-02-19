@@ -16,7 +16,7 @@ news: true
 social: true
 ---
 
-I am postdoctoral researcher at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). 
+I am a postdoctoral researcher at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html). 
 
 Before that, I did my PhD in Computer Science at [Saarland University](https://www.uni-saarland.de/en/home.html) where I was also a member of the [SFB 1102: Information Density and Linguistic Encoding](http://www.sfb1102.uni-saarland.de/). My PhD advisor was [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
 

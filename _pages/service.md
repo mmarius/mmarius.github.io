@@ -6,6 +6,10 @@ description: A list of conferences I reviewed for and workshops I helped organiz
 nav: true
 ---
 
+##### area chair
+
+- [ARR 2024](https://aclrollingreview.org/)
+
 ##### reviewing
 
 - [ICLR 2024](https://iclr.cc/) 

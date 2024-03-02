@@ -8,7 +8,7 @@ profile:
   align: right
   image: Marius_headshot4_downsampled.png
   address: 
-    <p style="text-align:left;padding-left:0.25em">Feel free to get in touch:</p>
+    <p style="text-align:left;padding-left:0.25em;font-family:"Roboto",sans-serif;">Feel free to get in touch:</p>
     <p style="text-align:left;">
       <a></a>
       <a href="mailto:"><i class="fas fa-envelope" style="font-size:1.7em;padding-left:0.75em;padding-top:0.25em;padding-right:0.25em"</i></a>

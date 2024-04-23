@@ -1,3 +1,47 @@
+@article{zhang2022mcse,
+    abbr = {Preprint},
+    title={LLM2Vec: Large Language Models Are Secretly Powerful Text Encoders},
+    author={BehnamGhader, Parishad and Adlakha, Vaibhav and Mosbach, Marius and Bahdanau, Dzmitry and Chapados, Nicolas and Reddy, Siva},
+    journal={arXiv},
+    year={2024},
+    abstract= "Large decoder-only language models (LLMs) are the state-of-the-art models on most of today's NLP tasks and benchmarks. Yet, the community is only slowly adopting these models for text embedding tasks, which require rich contextualized representations. In this work, we introduce LLM2Vec, a simple unsupervised approach that can transform any decoder-only LLM into a strong text encoder. LLM2Vec consists of three simple steps: 1) enabling bidirectional attention, 2) masked next token prediction, and 3) unsupervised contrastive learning. We demonstrate the effectiveness of LLM2Vec by applying it to 3 popular LLMs ranging from 1.3B to 7B parameters and evaluate the transformed models on English word- and sequence-level tasks. We outperform encoder-only models by a large margin on word-level tasks and reach a new unsupervised state-of-the-art performance on the Massive Text Embeddings Benchmark (MTEB). Moreover, when combining LLM2Vec with supervised contrastive learning, we achieve state-of-the-art performance on MTEB among models that train only on publicly available data. Our strong empirical results and extensive analysis demonstrate that LLMs can be effectively transformed into universal text encoders in a parameter-efficient manner without the need for expensive adaptation or synthetic GPT-4 generated data.",
+    html={https://arxiv.org/abs/2404.05961},
+    code={https://mcgill-nlp.github.io/llm2vec/},
+    conference = "Preprint",
+}
+
+@article{garcia2024what,
+    abbr = {Insights 2024},
+    title={What explains the success of cross-modal fine-tuning with ORCA?},
+    author={García-de-Herreros, Paloma  and Gautam, Vagrant and Slusallek, Philipp and Klakow, Dietrich and Mosbach, Marius},
+    journal={Workshop on Insights from Negative Results in NLP @ ACL},
+    year={2024},
+    abstract= "ORCA (Shen et al., 2023) is a recent technique for cross-modal fine-tuning, i.e., applying pre-trained transformer models to modalities beyond their training data. The technique consists primarily of training an embedder and fine-tuning the embedder and model. Despite its high performance on a variety of downstream tasks, we do not understand precisely how each of these components contribute to ORCA's success. Therefore, we run a series of ablations and find that embedder training does not help 2D tasks at all, contrary to what the original paper posits. In 1D tasks, some amount of embedder training is necessary but more is not better. In 4 out of 6 datasets we experiment with, it is model fine-tuning that makes the biggest difference. Through our ablations and baselines, we contribute a better understanding of the individual components of ORCA.",
+    html={https://arxiv.org/abs/2403.13537},
+}
+
+@article{alabi2024hidden,
+    abbr = {Preprint},
+    title={The Hidden Space of Transformer Language Adapters},
+    author={Jesujoba O., Alabi and Mosbach, Marius and Eyal, Matan and Klakow, Dietrich and Geva, Mor},
+    journal={arXiv},
+    year={2024},
+    abstract= "We analyze the operation of transformer language adapters, which are small modules trained on top of a frozen language model to adapt its predictions to new target languages. We show that adapted predictions mostly evolve in the source language the model was trained on, while the target language becomes pronounced only in the very last layers of the model. Moreover, the adaptation process is gradual and distributed across layers, where it is possible to skip small groups of adapters without decreasing adaptation performance. Last, we show that adapters operate on top of the model's frozen representation space while largely preserving its structure, rather than on an 'isolated' subspace. Our findings provide a deeper view into the adaptation process of language models to new languages, showcasing the constraints imposed on it by the underlying model and introduces practical implications to enhance its efficiency.",
+    html={https://arxiv.org/abs/2402.13137},
+    conference = "Preprint",
+}
+
+@article{zhang2024impact,
+    abbr = {Preprint},
+    title={The Impact of Demonstrations on Multilingual In-Context Learning: A Multidimensional Analysis},
+    author={Zhang, Miaoran and Gautam, Vagrant and Wang, Mingyang and Alabi, Jesujoba O. and Shen, Xiaoyu and Klakow, Dietrich and Mosbach, Marius},
+    journal={arXiv},
+    year={2024},
+    abstract= "In-context learning is a popular inference strategy where large language models solve a task using only a few labelled demonstrations without needing any parameter updates. Compared to work on monolingual (English) in-context learning, multilingual in-context learning is under-explored, and we lack an in-depth understanding of the role of demonstrations in this context. To address this gap, we conduct a multidimensional analysis of multilingual in-context learning, experimenting with 5 models from different model families, 9 datasets covering classification and generation tasks, and 56 typologically diverse languages. Our results reveal that the effectiveness of demonstrations varies significantly across models, tasks, and languages. We also find that Llama 2-Chat, GPT-3.5, and GPT-4 are largely insensitive to the quality of demonstrations. Instead, a carefully crafted template often eliminates the benefits of demonstrations for some tasks and languages altogether. These findings show that the importance of demonstrations might be overestimated. Our work highlights the need for granular evaluation across multiple axes towards a better understanding of in-context learning.",
+    html={https://arxiv.org/abs/2402.12976},
+    conference = "Preprint",
+}
+
 @inproceedings{steuer-etal-2023-large,
     abbr = {BabyLM 2023},
     title = "Large GPT-like Models are Bad Babies: A Closer Look at the Relationship between Linguistic Competence and Psycholinguistic Measures",

@@ -25,7 +25,7 @@ I am a postdoctoral fellow at [McGill University](https://www.mcgill.ca/) and a 
 
 Before that, I was a postdoctoral researcher at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html) :de:, where I also did my PhD in Computer Science. My PhD advisor was [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
 
-The overarching goal of my research is to build natural language processing (NLP) systems that are **well understood**, **robust**, **adaptable**, and **accessible**; we should have a rigorous understanding of when and why NLP systems work or fail, they should be robustly deployable in a variety of real-world scenarios with guarantees about their performance and generalization, they should be easy to adapt to new domains and problems, and they should be accessible by and useful to everyone.
+The overarching goal of my research is to build natural language processing (NLP) systems that are **well understood**, **robust**, and **adaptable**; we should have a rigorous understanding of when and why NLP systems work or fail, they should be robustly deployable in a variety of real-world scenarios with guarantees about their performance and generalization, and they should be easy to adapt to new domains and problems.
 
 In my free time, I enjoy CrossFit :weight_lifting_man:, playing soccer :soccer:, and baking :cake:.
 

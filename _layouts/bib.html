@@ -4,13 +4,13 @@
 <div class="row">
   <div class="col-sm-2 abbr">
   {% if entry.abbr %}
-    {% if site.data.venues[entry.abbr] %}
-    <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
+    {% if entry.conference == "Preprint" %}
+      <preprint class="badge">{{entry.conference}}</preprint>
     {% else %}
-    <abbr class="badge">{{entry.abbr}}</abbr>
-      {% if entry.award %}
-        <award class="badge">{{entry.award}}</award>
-      {% endif %}
+      <abbr class="badge">{{entry.abbr}}</abbr>
+    {% if entry.award %}
+      <award class="badge">{{entry.award}}</award>
+    {% endif %}
     {% endif %}
   {% endif %}
   </div>

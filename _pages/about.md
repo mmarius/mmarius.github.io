@@ -6,7 +6,8 @@ description:
 
 profile:
   align: right
-  image: Marius_headshot4_downsampled.png
+  image: /assets/img/Marius_headshot4_downsampled.jpeg
+  laserimage: /assets/img/Marius_headshot4_downsampled_laser.jpeg
   address: 
     <p style="text-align:left;padding-left:0.25em;font-family:"Roboto",sans-serif;">Feel free to get in touch:</p>
     <p style="text-align:left;">

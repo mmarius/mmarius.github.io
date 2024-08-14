@@ -2,7 +2,7 @@
 layout: page
 permalink: /service/
 title: service
-description: A list of conferences I reviewed for and workshops I helped organizing
+description: A list of conferences I reviewed for and workshops I helped to organize
 nav: true
 ---
 
@@ -20,5 +20,5 @@ nav: true
 
 ##### workshops
 
-- Co-organizer of the 9th Workshop on Representation Learning for NLP ([Rep4NLP](https://sites.google.com/view/repl4nlp2024)) @ ACL 2024.
-- Co-organizer of the 3rd workshop Beyond Vision and Language ([LANTERN](https://aclanthology.org/2021.lantern-1.0/)) @ EACL 2021.
+- Co-organizer of the 9th Workshop on Representation Learning for NLP ([RepL4NLP](https://sites.google.com/view/repl4nlp2024)) @ ACL 2024.
+- Co-organizer of the 3rd Workshop Beyond Vision and Language ([LANTERN](https://aclanthology.org/2021.lantern-1.0/)) @ EACL 2021.

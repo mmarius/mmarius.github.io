@@ -7,7 +7,7 @@ email: marius.mosbach@mila.quebec
 description: > # this means to ignore newlines until "url:"
   Academic website of Marius Mosbach. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-  Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by  <a href="https://dippedrusk.com/" target="_blank">Vagrant Gautam</a> and <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 
 url:  # the base hostname & protocol for your site, should be empty when deploying to github pages

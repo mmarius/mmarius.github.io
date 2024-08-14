@@ -133,8 +133,31 @@ h1 {
 }
 
 table th {
-    width: 120px;
+    // width: 120px;
     padding: 0pt;
+}
+
+
+
+table {
+  border-spacing: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  max-width: 95%;
+}
+
+td {
+  border-bottom: 1px dashed black;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
+th {
+  text-align: center !important;
+  border-bottom: 1px solid black;
+  padding: 1%;
 }
 
 

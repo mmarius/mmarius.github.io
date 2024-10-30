@@ -21,7 +21,7 @@ news: true
 social: false
 ---
 
-I am a postdoctoral fellow at [McGill University](https://www.mcgill.ca/) and a researcher at [Mila - Quebec AI Institute](https://mila.quebec/en/) in Montréal :canada:. 
+I am a postdoctoral fellow at [McGill University](https://www.mcgill.ca/) and a postdoctoral researcher at [Mila - Quebec AI Institute](https://mila.quebec/en/) in Montréal :canada:. 
 <!-- I am a member of the [McGill NLP group](https://mcgill-nlp.github.io/). -->
 
 Before that, I was a postdoctoral researcher at the [Language Science and Technology Department](https://www.uni-saarland.de/en/department/lst.html) of [Saarland University](https://www.uni-saarland.de/en/home.html) :de:, where I also did my PhD in Computer Science. My PhD advisor was [Dietrich Klakow](https://scholar.google.de/citations?user=_HtGYmoAAAAJ&hl=en&oi=ao).
